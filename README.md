@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **Credits & Attribution / Kaynak ve Teşekkür:**
+> * **EN:** This repository is a complete, buildable source-code restoration based on the original **[k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer)** project (2.2.1.0). The original upstream repository intentionally omitted several files required for compilation; those missing parts have been fixed and restored here so anyone can audit and build the project from source. **No pre-compiled binaries (.exe/.dll) are distributed.** All original credits go to **[k1tbyte](https://github.com/k1tbyte)**.
+> * **TR:** Bu depo, **[k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer)** (2.2.1.0) projesinin eksik bırakılan kaynak kodlarının tamamlanmış ve doğrudan derlenebilir hale getirilmiş versiyonudur. İçerisinde önceden derlenmiş .exe veya .dll dosyaları bulunmaz; herkesin kodu inceleyip kendi bilgisayarında derleyebilmesi amacıyla paylaşılmıştır. Orijinal proje **[k1tbyte](https://github.com/k1tbyte)** tarafından geliştirilmiştir.
+
+---
 <div align="center">
 
 ![logo](./assets/icon.svg)
@@ -136,3 +142,4 @@ If you find this project useful, you can support its development with any option
 ---
 
 > **Legal disclaimer:** This project is a third-party enhancement tool intended solely for educational, research and local interoperability purposes. It does not distribute any proprietary code or bypass server-side validations. All modifications are performed locally to customize the user's interface.
+
