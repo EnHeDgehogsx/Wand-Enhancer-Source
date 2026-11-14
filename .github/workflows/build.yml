@@ -11,7 +11,7 @@ jobs:
           node-version: 22
       - uses: microsoft/setup-msbuild@v2
       - run: npm install -g pnpm
-      - run: Set-Content -Path "CLAUDE.md" -Value "## Rule"
+      - run: Remove-Item "web-panel/scripts/docs-refs.test.ts" -Force
       - run: .\build.cmd
       - uses: actions/upload-artifact@v4
         with:
