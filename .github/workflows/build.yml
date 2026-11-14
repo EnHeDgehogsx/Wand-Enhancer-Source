@@ -11,8 +11,8 @@ jobs:
           node-version: 22
       - uses: microsoft/setup-msbuild@v2
       - run: npm install -g pnpm
-      - run: New-Item -Path "CLAUDE.md" -ItemType File -Force
-      - run: .\build.cmd -SkipTests
+      - run: Set-Content -Path "CLAUDE.md" -Value "## Rule"
+      - run: .\build.cmd
       - uses: actions/upload-artifact@v4
         with:
           name: WandEnhancer
